@@ -1,0 +1,4 @@
+#!/bin/bash
+
+jupyter serverextension enable --py nbgitpuller --sys-prefix
+find . -name \*.ipynb | xargs jupyter trust
